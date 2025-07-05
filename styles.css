@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bitcount Grid Double", system-ui;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./img/a6458d911e655803a4cc66cac08d6ec5.jpg)
+
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;background-size: cover;
+    
+
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(201, 196, 209, 0.527);
+    border-radius: 20px;
+    color: #a2a2fc;
+    padding: 30px 40px;  
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    backdrop-filter: blur(20px);
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border:  2px solid rgba(201, 196, 209, 0.527);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: #10101d;
+    padding: 20px 45px 20px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.input-box input::placeholder {
+    color: #5b5b5e;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    color:#5b5b5e;
+    font-size: 20px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+
+}
+
+.remember-forgot label input  {
+    accent-color: #5959fd;
+    margin-right: 5px;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: #5959fd;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    width: 100%;
+    height: 50px;
+    background-color: #bcbcfc;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #5959fd;
+    font-weight: 600;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 20px;
+
+}
+
+.login:hover {
+    background-color:transparent;
+    border:  2px solid rgba(201, 196, 209, 0.527);
+    color: #bcbcfc;
+    transition: 0.5s;
+}
+
+.register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link a {
+    text-decoration: none;
+    color:#bcbcfc;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
